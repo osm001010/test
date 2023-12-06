@@ -34,3 +34,5 @@ test_inputs = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
 for test_input in test_inputs:
     prediction = perceptron.predict(test_input)
     print(f"Input: {test_input}, Prediction: {prediction}")
+pre=perceptron.predict([0.3,0.3])
+print(pre)
